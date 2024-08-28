@@ -8,6 +8,12 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 # Use sqlite3 as the database for Active Record
 gem "mysql2"
 
+#react on different port and rails on different port
+gem 'rack-cors', require: 'rack/cors'
+
+
+
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
